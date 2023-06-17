@@ -5,6 +5,28 @@
     "settings": "Settings",
     "language": "Language",
     "en": "English",
-    "ru": "Russian"
+    "ru": "Russian",
+    "filter": {
+      "all": "All",
+      "cargo": "Cargo",
+      "passenger": "Passenger",
+      "special": "Special"
+    },
+    "item": {
+      "V": "Vehicle",
+      "driver_name": "Driver name",
+      "vehicle_category": "Vehicle category"
+    },
+    "view": {
+      "map": "Map",
+      "list": "List"
+    },
+    "info": {
+      "vehicle_category": "Vehicle category",
+      "driver_name": "Driver name",
+      "driver_phone": "Driver contact number",
+      "call": "Call",
+      "message": "Message"
+    }
   }
 }

@@ -1,102 +1,152 @@
 [
   {
     "id": "1",
-    "location": "Республика 54",
+    "location": {
+      "latitude": "51.182213522998595",
+      "longitude": "71.42294687935706",
+      "latitudeDelta": "0.0922",
+      "longitudeDelta": "0.0421"
+    },
     "type": "CARGO",
     "driver": {
       "id": "1",
       "name": "Duman",
-      "phone": "87016727468"
+      "phone": "7005228747"
     }
   },
   {
     "id": "2",
-    "location": "Республика 1",
+    "location": {
+      "latitude": "51.17589777162789",
+      "longitude": "71.42410100762817",
+      "latitudeDelta": "0.0922",
+      "longitudeDelta": "0.0421"
+    },
     "type": "SPECIAL",
     "driver": {
       "id": "2",
       "name": "Alex",
-      "phone": "87085228747"
+      "phone": "7005228747"
     }
   },
   {
     "id": "3",
-    "location": "Республика 3",
+    "location": {
+      "latitude": "51.17355892843291",
+      "longitude": "71.43817500698975",
+      "latitudeDelta": "0.0922",
+      "longitudeDelta": "0.0421"
+    },
     "type": "CARGO",
     "driver": {
       "id": "3",
       "name": "Andrew",
-      "phone": "87075228747"
+      "phone": "7005228747"
     }
   },
   {
     "id": "4",
-    "location": "Республика 45",
+    "location": {
+      "latitude": "51.109752434751684",
+      "longitude": "71.49425032707038",
+      "latitudeDelta": "0.0922",
+      "longitudeDelta": "0.0421"
+    },
     "type": "PASSENGER",
     "driver": {
       "id": "4",
       "name": "Tate",
-      "phone": "87475228747"
+      "phone": "7005228747"
     }
   },
   {
     "id": "5",
-    "location": "Республика 47",
+    "location": {
+      "latitude": "51.118546193984045",
+      "longitude": "71.47690100106931",
+      "latitudeDelta": "0.0922",
+      "longitudeDelta": "0.0421"
+    },
     "type": "CARGO",
     "driver": {
       "id": "5",
       "name": "Welbex",
-      "phone": "87005228747"
+      "phone": "7005228747"
     }
   },
   {
     "id": "6",
-    "location": "Республика 6",
+    "location": {
+      "latitude": "51.15337698786569",
+      "longitude": "71.42382828474538",
+      "latitudeDelta": "0.0922",
+      "longitudeDelta": "0.0421"
+    },
     "type": "SPECIAL",
     "driver": {
       "id": "6",
       "name": "Max",
-      "phone": "87005228747"
+      "phone": "7005228747"
     }
   },
   {
     "id": "7",
-    "location": "Республика 2",
+    "location": {
+      "latitude": "51.16071227363598",
+      "longitude": "71.42762489298833",
+      "latitudeDelta": "0.0922",
+      "longitudeDelta": "0.0421"
+    },
     "type": "PASSENGER",
     "driver": {
       "id": "7",
       "name": "Sasha",
-      "phone": "87025228747"
+      "phone": "7005228747"
     }
   },
   {
     "id": "8",
-    "location": "Республика 35",
+    "location": {
+      "latitude": "51.15666494808047",
+      "longitude": "71.43301840291367",
+      "latitudeDelta": "0.0922",
+      "longitudeDelta": "0.0421"
+    },
     "type": "CARGO",
     "driver": {
       "id": "8",
       "name": "Andrey",
-      "phone": "87035228747"
+      "phone": "7005228747"
     }
   },
   {
     "id": "9",
-    "location": "Республика 34",
+    "location": {
+      "latitude": "51.15638232704936",
+      "longitude": "71.43459554180993",
+      "latitudeDelta": "0.0922",
+      "longitudeDelta": "0.0421"
+    },
     "type": "PASSENGER",
     "driver": {
       "id": "9",
       "name": "Vova",
-      "phone": "87045228747"
+      "phone": "7005228747"
     }
   },
   {
     "id": "10",
-    "location": "Республика 14",
+    "location": {
+      "latitude": "51.1658740822814",
+      "longitude": "71.43436073299371",
+      "latitudeDelta": "0.0922",
+      "longitudeDelta": "0.0421"
+    },
     "type": "SPECIAL",
     "driver": {
       "id": "10",
       "name": "Boris",
-      "phone": "87005228747"
+      "phone": "7005228747"
     }
   }
 ]

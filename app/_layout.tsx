@@ -2,23 +2,18 @@ import FontAwesome from "@expo/vector-icons/FontAwesome";
 import {
   DarkTheme,
   DefaultTheme,
+  NavigationContainer,
   ThemeProvider,
 } from "@react-navigation/native";
 import { useFonts } from "expo-font";
 import { SplashScreen, Stack } from "expo-router";
 import { useEffect } from "react";
-import "../locales/index";
 import { useColorScheme } from "react-native";
+import "../locales/index";
 
-export {
-  // Catch any errors thrown by the Layout component.
-  ErrorBoundary,
-} from "expo-router";
+export { ErrorBoundary } from "expo-router";
 
-export const unstable_settings = {
-  // Ensure that reloading on `/modal` keeps a back button present.
-  initialRouteName: "(tabs)",
-};
+
 
 export default function RootLayout() {
   const [loaded, error] = useFonts({
@@ -41,6 +36,7 @@ export default function RootLayout() {
 }
 
 function RootLayoutNav() {
+  // hooks
   const colorScheme = useColorScheme();
 
   return (
@@ -48,6 +44,7 @@ function RootLayoutNav() {
       <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
         <Stack>
           <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+          <Stack.Screen name="index" options={{ headerTitle: 'Hello', headerShown: false }} />
         </Stack>
       </ThemeProvider>
     </>
